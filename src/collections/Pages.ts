@@ -2,18 +2,18 @@ import { CollectionConfig } from 'payload/types';
 import { Hero } from '../blocks';
 
 export const Pages: CollectionConfig = {
-  slug: 'paginas',
+  slug: 'pages',
   labels: {
-    singular: 'Pagina',
-    plural: 'Paginas',
+    singular: 'Page',
+    plural: 'Pages',
   },
   access: {
     read: () => true,
   },
   fields: [
     {
-      name: 'nombre',
-      label: 'Nombre',
+      name: 'name',
+      label: 'Name',
       type: 'text',
       required: true,
     },

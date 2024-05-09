@@ -9,13 +9,13 @@ export const Hero: Block = {
   fields: [
     {
       name: 'title',
-      label: 'Titulo',
+      label: 'Title',
       type: 'text',
       required: true,
     },
     {
       name: 'content',
-      label: 'Contenido',
+      label: 'Content',
       type: 'text',
     },
     {
@@ -26,7 +26,7 @@ export const Hero: Block = {
     },
     {
       name: 'backgroundImage',
-      label: 'Imagen de Fondo',
+      label: 'Background Image',
       type: 'upload',
       relationTo: 'media',
     },
